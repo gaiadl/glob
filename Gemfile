@@ -33,7 +33,7 @@ gem 'spring', group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-gem 'unicorn'
+gem 'unicorn', platforms: :ruby
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -52,3 +52,5 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 # Markdown parser
 gem 'kramdown'
+
+gem 'tzinfo-data'
